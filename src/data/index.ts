@@ -1,5 +1,5 @@
-export const SITE_TITLE = "Sanju's Space";
-export const SITE_DESCRIPTION = "A internet space for Sanju.";
+export const SITE_TITLE = "The Step One";
+export const SITE_DESCRIPTION = "小步向前";
 
 export interface MenuItem {
 	label: string;
@@ -19,66 +19,43 @@ export const menuItems: MenuItem[] = [
 		label: "thoughts",
 		url: "/thoughts",
 	},
-	{
-		label: "ships",
-		url: "/ships",
-	},
 ];
 
-export const title = "Sanju's Space";
-export const description = "A internet space for Sanju.";
+export const title = "The Step One";
+export const description = "小步向前";
 export const image = "/images/ogimage.png";
 export const url = "https://sanju.sh";
 
 export const ogImage = {
 	src: "/images/ogimage.png",
-	alt: "Sanju's Space",
+	alt: "The Step One",
 };
 
 
 export const products = [
 	{
-		name: "Fli.so",
-		url: "https://fli.so",
-		image: "/products/fli.png",
+		name: "typeless",
+		url: "https://typeless.me",
+		image: "/products/typeless.png",
 	},
 	{
-		name: "Uiino",
-		url: "https://uiino.com",
-		image: "/products/uiino.png",
-	},
-	{
-		name: "SticAI",
-		url: "https://sticai.com",
-		image: "/products/sticai.png",
-	},
-	{
-		name: "Dun",
-		url: "https://dunsuite.com",
-		image: "/products/dun.png",
-	},
-	{
-		name: "DunTasks",
-		url: "https://duntasks.com",
-		image: "/products/duntasks.png",
+		name: "UI Root",
+		url: "https://uiroot.com",
+		image: "/products/uiroot.png",
 	},
 ];
 
 export const socialLinks = [
 	{
 		label: "@x",
-		url: "https://x.com/spikeysanju",
+		url: "https://x.com/molightme",
 	},
 	{
 		label: "email",
-		url: "mailto:work@sanju.sh",
+		url: "mailto:hi@thestep.one",
 	},
 	{
-		label: "github",
-		url: "https://github.com/spikeysanju",
-	},
-	{
-		label: "linkedin",
-		url: "https://www.linkedin.com/in/imsanju",
+		label: "@bsky",
+		url: "https://molightme.bsky.social",
 	},
 ];

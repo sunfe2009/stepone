@@ -6,7 +6,9 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://www.sanju.sh",
+	site: "https://thestep.one",
+	site_title: "The Step One",
+	site_description: "小步向前",
 	integrations: [
 		mdx(),
 		sitemap({

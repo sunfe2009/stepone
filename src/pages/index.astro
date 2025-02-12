@@ -19,29 +19,35 @@ import RootLayout from '@layouts/root-layout.astro';
 	<RootLayout>
 		<div
 			id='navbar+title'
-			class='flex flex-col w-full gap-6 max-w-xl lowercase'>
+			class='flex flex-col w-full gap-6 max-w-xl'>
 			<Header />
-			<h1
-				class='w-full text-start text-[min(12vw,72px)] font-medium leading-[0.9] tracking-[-2px] sm:tracking-[-4px]'>
-				meet sanju
-				<span class='text-gray-500 dark:text-gray-400'>designer founder</span>
-			</h1>
+			<div class='flex flex-row gap-6 items-center'>
+				<img
+					src='/images/logo.png'
+					alt='The Step One Logo'
+					class='w-24 h-24 object-contain flex-shrink-0 rounded-full'
+				/>
+				<div class='flex flex-col gap-2'>
+					<h1
+						class='w-full text-start text-[min(8vw,36px)] font-medium leading-[1.1] tracking-[-1px] sm:tracking-[-2px]'>
+						The Step One
+					</h1>
+					<h2
+						class='w-full text-start text-[min(8vw,36px)] font-medium leading-[1.1] tracking-[-1px] sm:tracking-[-2px]'>
+						<span class='text-gray-500 dark:text-gray-400'>小步向前</span>
+					</h2>
+				</div>
+			</div>
 
 			<div
 				id='about'
 				class='flex flex-col gap-4'>
 				<div class='font-medium text-lg text-gray-700 dark:text-gray-400'>
-					I run <a
-						href='https://thisux.com'
-						target='_blank'
-						class='underline underline-offset-2'
-						>ThisUX</a
-					>, a design-led product studio. We make things that work. For years, I
-					wore many hats. Now I’m doing my own thing.
+					你好，我是牧辉，前广告人，现为自由职业。混迹于上海街头，对很多事感兴趣，也喜爱折腾，但并无所长。这里是我记录想法的地方。
 				</div>
 
 				<div class='font-medium text-lg text-gray-700 dark:text-gray-300'>
-					I work on ideas like
+					最近在折腾的小玩意儿：
 					<div class='flex flex-wrap gap-2 mt-5'>
 						{
 							products.map((product) => (
@@ -62,20 +68,23 @@ import RootLayout from '@layouts/root-layout.astro';
 				</div>
 
 				<div class='font-medium text-lg text-gray-700 dark:text-gray-400'>
-					I team up with founders and business owners. We build MVPs, full
-					products, or fix broken experiences. Design to code, we do it all.
+					我很乐意认识新朋友。如果你想打个招呼，欢迎点击下方的链接，我们聊个 15 分钟，就像和火车上的陌生人聊几句那样。
 				</div>
 
 				<div class='font-medium text-lg text-gray-700 dark:text-gray-400'>
-					Want to chat?
+					约个时间?
 					<a
-						href='https://cal.com/imsanju/15min'
+						href='https://cal.com/molight/quick-chat'
 						target='_blank'
 						class='underline underline-offset-2'>
 						schedule a call
 					</a>
 				</div>
 			</div>
+
+			<div class='font-medium text-lg text-gray-700 dark:text-gray-400'>
+					也可以在这里找到我 👇🏻
+				</div>
 
 			<div
 				id='social-links'
