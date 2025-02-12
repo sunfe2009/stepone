@@ -23,9 +23,9 @@ const thoughts = (await getCollection("thought")).sort(
 	<RootLayout>
 		<div
 			id='navbar+title'
-			class='flex flex-col w-full gap-6 max-w-xl'>
+			class='flex flex-col w-full gap-9 max-w-xl'>
 			<Header />
-			<h1 class='w-full text-7xl font-medium tracking-tight mb-6'>thoughts</h1>
+			<h1 class='w-full text-2xl font-medium tracking-tight mb-6'>tweets</h1>
 
 			{
 				thoughts.map((thought, i) => (
