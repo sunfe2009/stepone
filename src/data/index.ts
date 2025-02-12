@@ -24,7 +24,7 @@ export const menuItems: MenuItem[] = [
 export const title = "The Step One";
 export const description = "小步向前";
 export const image = "/images/ogimage.png";
-export const url = "https://sanju.sh";
+export const url = "https://thestep.one";
 
 export const ogImage = {
 	src: "/images/ogimage.png",
